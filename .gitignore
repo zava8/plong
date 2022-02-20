@@ -1,7 +1,7 @@
 # eclipse
 Debug/
 # ignore swap file
-*.swp.*
+*.swp
 # Prerequisites
 *.d
 
