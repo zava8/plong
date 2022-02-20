@@ -93,8 +93,8 @@ cplong::cplong(const string& str_plong){
 		}
 		if (any < 0) {
 			tempval = neg ? cplong::min_long : cplong::meks_long;
-			cout << "in cplong::cplong(const string& str_plong) str_knstrktr_range_overphlo eksepsn" << endl ;
-			cout << "throing range overplo eksepsn" << endl ;
+//			cout << "in cplong::cplong(const string& str_plong) str_knstrktr_range_overphlo eksepsn" << endl ;
+//			cout << "throing range overplo eksepsn" << endl ;
 			return_nao_val = 2; throw "str_knstrktr_range_overphlo"; goto _label_return_nao_;
 		}
 		else if (neg) tempval = -tempval;

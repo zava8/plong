@@ -1,6 +1,6 @@
 LOADLIBES = -lplong
 #CXXFLAGS = -lplong
-obzekts = tkns.o tcmp.o tadd.o
+obzekts = tknss.o tkns.o tcmp.o tadd.o
 runtests: $(obzekts) run.o
 	g++ -o $@ run.o $(obzekts) -lplong
 	rm *.o	
