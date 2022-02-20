@@ -1,7 +1,10 @@
 # eclipse
 Debug/
+# ignore swap file
+*.swp.*
 # Prerequisites
 *.d
+
 
 # Compiled Object files
 *.slo
