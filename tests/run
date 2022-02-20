@@ -1,2 +1,2 @@
-make
-./runtests
+make -f m
+./runtests | more

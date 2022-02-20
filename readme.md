@@ -23,6 +23,17 @@ finished installing.  to use library, add '-lplong' as a flag
 	4. for sample usage ve can see test programs vritten in tests folder.
 	'''
 
+2. to run testcases for this lib
+	
+	```
+	
+	1. go to plong/tests directory
+	
+	2. ~/plong/tests $ ./run
+	
+	```
+
+
 # vhy to use plong library instead of float/double :
 
 ![plong](./cms/tubot1.jpg)
