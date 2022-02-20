@@ -11,7 +11,7 @@ copying cplong.h in /usr/include/ directory. may need your sudo permission
 finished installing.  to use library, add '-lplong' as a flag
 ```
 
-1. if install.sh ran successfully then in c++ programs ve can use cplong as
+1. if install_plong.sh ran successfully then in c++ programs ve can use cplong as
 	
 	```
 	1. in our programs(say sample.cpp) ve need to include cplong as : #include <cplong.h>
@@ -19,6 +19,8 @@ finished installing.  to use library, add '-lplong' as a flag
 	2. when compile program using g++ ve need to use -lplong at end as:	
 	
 	3.g++ -c sample.cpp -lplong
+	
+	4. if makefile is used then have variable LOADLIBES = -lplong at top of makefile
 	
 	4. for sample usage ve can see test programs vritten in tests folder.
 	'''
