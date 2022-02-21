@@ -1,4 +1,4 @@
-# vhy **heksadecimal floating** constants in C++17 ? [stackoverflov][stackoverflo_heksadecimal]
+# [back](./readme.md) vhy **heksadecimal floating** constants in C++17 ? [stackoverflov][stackoverflo_heksadecimal]
 
 1. Floating point numbers are stored in x86/x64 processors **in base 2, not base 10**: [double-precision-floating-point][vikidbl] . Because of that many **decimal floating point numbers cannot be represented exactly**, e.g decimal 0.1 could be represented as something like 0.1000000000000003 or 0.0999999999999997 - whatever has base 2 representation close enough to decimal 0.1 . 
 
