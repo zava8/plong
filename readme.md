@@ -36,7 +36,7 @@ finished installing.  to use library, add '-lplong' as a flag
 	```
 
 
-# vhy to use plong library instead of float/double :
+# [vhy to use plong library instead of float/double](./cpp17.md) :
 
 ![plong](./cms/tubot1.jpg)
 
