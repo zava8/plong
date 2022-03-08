@@ -15,9 +15,9 @@ int main()
 
    cout << endl << "///////////////////// tknss test cases" << endl;
    tval = tknss::tn(); if(0 !=tval) { cout << "tknss::tn failed" << endl; return tval ; }
-   tval = tknss::tndeci(); if(0 !=tval) { cout << "tknss::tndeci failed" << endl; return tval ; }
-   tval = tknss::ty(); if(0 !=tval) { cout << "tknss::ty failed" << endl; return tval ; }
-   tval = tknss::tydeci(); if(0 !=tval) { cout << "tknss::tydeci failed" << endl; return tval ; }
+   //tval = tknss::tndeci(); if(0 !=tval) { cout << "tknss::tndeci failed" << endl; return tval ; }
+   //tval = tknss::ty(); if(0 !=tval) { cout << "tknss::ty failed" << endl; return tval ; }
+   //tval = tknss::tydeci(); if(0 !=tval) { cout << "tknss::tydeci failed" << endl; return tval ; }
 //
 //   ////////
 

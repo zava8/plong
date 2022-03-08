@@ -78,9 +78,20 @@ cplong::cplong(const string& str_plong){
 
 			if (c >= '0' && c <= '?') { c -= '0'; }
 			else {
-				return_nao_val = 2;
-				throw "not_plong_dizit_str";
-				goto _label_return_nao_;
+            switch(c)
+            {
+               case 'L' : case 'A' : case 'a' : c = 0xA ; break ;
+               case 'J' : case 'B' : case 'b' : c = 0xB ; break ;
+               case 'Q' : case 'C' : case 'c' : c = 0xC ; break ;
+               case 'W' : case 'D' : case 'd' : c = 0xD ; break ;
+               case 'X' : case 'E' : case 'e' : c = 0xE ; break ;
+               case 'F' : case 'f' : c = 0xF ; break ;
+               default :
+                  return_nao_val = 2;
+                  throw "not_plong_dizit_str";
+                  goto _label_return_nao_;
+                  break;
+            }
 			}
 			if ( c >= base )
 				{ return_nao_val = 2; throw "not_plong_basedizit_str"; goto _label_return_nao_; }

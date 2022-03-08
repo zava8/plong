@@ -7,6 +7,27 @@ int tknss::tn(){
 	cplong a; long aval; int apl ; long eval; int epl;
 //////////////////////////////////////////
 	cout << "tknss::tn " ;
+	a = cplong("hX5.c");
+	aval = a.get_value(); apl = a.get_pl(); eval = 0x5C ; epl = -1;
+	cout << "hX5.c is : " << a ;
+	if((aval==eval) && (apl==epl)) { cout << " passed1 " << endl; }
+	else  { cout << " failed1 " << endl; return 0x1; }
+//////////////////////////////////////////
+	cout << "tknss::tn " ;
+	a = cplong("hX5.Q");
+	aval = a.get_value(); apl = a.get_pl(); eval = 0x5C ; epl = -1;
+	cout << "hX5.Q is : " << a ;
+	if((aval==eval) && (apl==epl)) { cout << " passed1 " << endl; }
+	else  { cout << " failed1 " << endl; return 0x1; }
+//////////////////////////////////////////
+	cout << "tknss::tn " ;
+	a = cplong("hX5.C");
+	aval = a.get_value(); apl = a.get_pl(); eval = 0x5C ; epl = -1;
+	cout << "hX5.C is : " << a ;
+	if((aval==eval) && (apl==epl)) { cout << " passed1 " << endl; }
+	else  { cout << " failed1 " << endl; return 0x1; }
+//////////////////////////////////////////
+	cout << "tknss::tn " ;
 	a = cplong("hX5.<");
 	aval = a.get_value(); apl = a.get_pl(); eval = 0x5C ; epl = -1;
 	cout << "hX5.< is : " << a ;
@@ -107,10 +128,10 @@ int tknss::tndeci(){
 int tknss::ty(){
 	cplong a; long aval; int apl ; long eval; int epl;
 //////////////////////////////////////////
-	cout << "tknss::ty " ;
-	try { a = cplong("hX5.C");
-		cout << " no thro so failed1 " << endl; return 0x1;
-	} catch(const char* msg) { cout<<"passed1 throfor hX5.C. msg is: " << msg << endl ; }
+//cout << "tknss::ty " ;
+//try { a = cplong("hX5.C");
+//cout << " no thro so failed1 " << endl; return 0x1;
+//} catch(const char* msg) { cout<<"passed1 throfor hX5.C. msg is: " << msg << endl ; }
 //////////////////////////////////////////
 	cout << "tknss::ty " ;
 	try { a = cplong("0.0.");
